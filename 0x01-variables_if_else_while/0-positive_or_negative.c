@@ -2,9 +2,9 @@
 #include<stdlib.h>
 #include <time.h>
 /**
- * function main assign a random number
- * its prints if number is negative or positive
- * return value is 0
+ * main - assign a random number to the variable n each time it is executed
+ * Description: prints  if a number is positive or negative
+ *Return: 0
  */
 int main(void)
 {
