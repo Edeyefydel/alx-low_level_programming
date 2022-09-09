@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include <time.h>
 /**
- * function main assign a random number 
+ * function main assign a random number
  * its prints if number is negative or positive
  * return value is 0
  */
@@ -23,7 +23,7 @@ int main(void)
 	}
 	if  (n < 0)
 	{
-		printf ("%d is negative\n", n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
