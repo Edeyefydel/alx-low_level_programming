@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	int i; c;
+	int i, c;
 
 	c = i = '0';
 
