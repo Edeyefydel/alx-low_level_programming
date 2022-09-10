@@ -6,33 +6,30 @@
 
 int main(void)
 {
-	int c, i, k, g;
+	int i, j;
 
 
-	for (c = '0'; c <= '9'; c++)
+	for (i = 0; i < 100; i++)
 	{
-		for (i = '0'; i <= '9'; i++)
+		for (j = 0; j < 100; j++)
 		{
-			for (k = '0'; k <= '9'; k++)
+			if (i < j)
 			{
-				for (g = '0'; g <= '9'; g++)
+				putchar((i / 10) + 48);
+				putchar((i % 10) + 48);
+				putchar(' ');
+				putchar((j / 10) + 48);
+				putchar((j % 10) + 48);
+
+				if (i != 98 || j != 99)
 				{
-					if (c < i && i < k && k < g)
-					{
-						putchar(c);
-						putchar(i);
-						putchar(k);
-						putchar(g);
-						if (c != '7')
-						{
-							putchar(',');
-							putchar(' ');
-						}
-					}
+					putchar(',');
+					putchar(' ');
 				}
 			}
+		
 		}
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
