@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdio.h>
 {
 	int n;
 	int b[5];
