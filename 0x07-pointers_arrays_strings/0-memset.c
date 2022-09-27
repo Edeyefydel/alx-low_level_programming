@@ -5,7 +5,6 @@
  * @b: a constant byte
  * @n: how many byte of memory
  * Return: pointer to the memory s
- * @night: my var and assgn to 0*
  */
 char *_memset(char *s, char b, unsigned int n)
 {
