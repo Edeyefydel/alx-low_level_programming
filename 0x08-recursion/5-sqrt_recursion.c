@@ -15,7 +15,7 @@ int sqrt_check(int g, int c)
 		return (-1);
 	return (sqrt_check(g + 1, c));
 }
-/** 
+/**
  * _sqrt_recursion - Returns the natural square of a number
  * @n: integer to find sqrt of
  * Return: Natural square root or -1
