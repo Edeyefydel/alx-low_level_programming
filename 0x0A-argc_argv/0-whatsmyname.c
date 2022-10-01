@@ -6,7 +6,7 @@
  * @argv: array of argument
  * Return: always 0
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	(void) argc;
 
