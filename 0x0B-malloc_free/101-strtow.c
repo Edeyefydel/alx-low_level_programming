@@ -17,6 +17,7 @@ void ch_free_grid(char **grid, unsigned int height)
 			free(grid);
 		}
 	}
+}
 	/**
 	 * strtow - splits a string into words.
 	 * @str: string.
@@ -64,4 +65,3 @@ void ch_free_grid(char **grid, unsigned int height)
 		aout[i] = NULL;
 		return (aout);
 	}
-}
