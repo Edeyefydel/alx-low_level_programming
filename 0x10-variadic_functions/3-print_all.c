@@ -23,7 +23,7 @@ void print_all(const char * const format, ...)
 			{
 				printf(", ");
 				break;
-			} j++
+			} j++;
 		}
 		switch (format[i])
 		{
